@@ -1,0 +1,60 @@
+.light-ball{ 
+    position: absolute;
+    right: 40px;
+    transition: all 0.3s ease-out;
+}
+
+.icon:hover div {
+    transform: translateX(-15px);
+    background-color: white;
+}
+
+.calender {
+    background: none;
+    z-index: 1;
+}
+.icon {
+    transition: all 0.3s ease-in-out;
+}
+.icon:hover {
+ background-color: #589167;
+}
+
+.icon:hover p {
+    background-color: white;
+    color: #589167;
+}
+
+.backgroundImage {
+    background-position: center;
+    background-size: cover;
+}
+
+.panel {
+    width: 380px;
+    height: 80px;
+    border: 1px;
+    border-style: solid;
+    border-color: rgb(177, 177, 177);
+    border-radius: 8px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    padding: 0px 10px;
+    margin-bottom: 10px;
+}
+
+.notActive {
+    visibility: hidden;
+}
+
+.active {
+    visibility: visible;
+}
+
+.active-pad {
+    color: red;
+    background-color: red;
+}
+
